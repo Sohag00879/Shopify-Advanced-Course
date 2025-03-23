@@ -1,3 +1,14 @@
-html{
-    margin: 0;
+html {
+  margin: 0;
+}
+
+/* header group  */
+/* announcementbar */
+.announce-text {
+  padding: 14px;
+  margin-bottom: 0;
+}
+
+.announcementbar {
+  background: #dddddd;
 }
