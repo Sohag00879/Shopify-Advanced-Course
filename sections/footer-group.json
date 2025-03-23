@@ -8,17 +8,17 @@
  * ------------------------------------------------------------
  */
 {
-  "name": "Header group",
-  "type": "header",
+  "name": "Footer group",
+  "type": "footer",
   "sections": {
-    "announcement": {
-      "type": "announcementbar",
+    "sub-footer": {
+      "type": "sub-footer",
       "settings": {}
     },
-    "header": {
-      "type": "header",
+    "footer": {
+      "type": "footer",
       "settings": {}
     }
   },
-  "order": ["announcement", "header"]
+  "order": ["sub-footer", "footer"]
 }
