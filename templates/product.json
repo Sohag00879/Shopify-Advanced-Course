@@ -30,6 +30,12 @@
           "type": "quantity",
           "settings": {}
         },
+        "variants_Xjheqg": {
+          "type": "variants",
+          "settings": {
+            "variant_type": "pills"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -42,10 +48,13 @@
         "title",
         "price",
         "quantity_selector",
+        "variants_Xjheqg",
         "buy_buttons"
       ],
       "settings": {}
     }
   },
-  "order": ["main-product"]
+  "order": [
+    "main-product"
+  ]
 }
