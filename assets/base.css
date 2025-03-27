@@ -12,3 +12,24 @@ html {
 .announcementbar {
   background: #dddddd;
 }
+.image-banner-main img {
+  width: 100%;
+}
+.image-banner {
+  position: relative;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+}
+
+.card-body svg,
+img {
+  width: 100%;
+  height: auto;
+}
+
+.featured-collection-section .card-body a {
+  text-decoration: none;
+  color: white;
+}
