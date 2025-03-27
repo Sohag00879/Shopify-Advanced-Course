@@ -1,5 +1,10 @@
 <div class="product_variants">
-    <select name="variant">
+    <div class="product-options">
+        {% for option in product.options_with_values %}
+            <label>{{option.name}}</label>
+        {% endfor %}
+    </div>
+    <select name="id" class="variants">
         {% for variant in product.variants %}
             <option value={{variant.id}}>{{variant.title}}</option>
         {% endfor %}
