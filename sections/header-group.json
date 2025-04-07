@@ -13,12 +13,19 @@
   "sections": {
     "announcement": {
       "type": "announcementbar",
-      "settings": {}
+      "settings": {
+        "message": "25% OFF for US based delivery!"
+      }
     },
     "header": {
       "type": "header",
-      "settings": {}
+      "settings": {
+        "menu": ""
+      }
     }
   },
-  "order": ["announcement", "header"]
+  "order": [
+    "announcement",
+    "header"
+  ]
 }
