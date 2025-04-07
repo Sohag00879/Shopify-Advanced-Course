@@ -13,12 +13,28 @@
   "sections": {
     "announcement": {
       "type": "announcementbar",
-      "settings": {}
+      "settings": {
+        "message": "25% OFF for US based delivery!"
+      }
     },
     "header": {
       "type": "header",
-      "settings": {}
+      "settings": {
+        "menu": ""
+      }
+    },
+    "featured_collection_6qwg4t": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Featured Collection",
+        "sub_heading": "",
+        "collection": ""
+      }
     }
   },
-  "order": ["announcement", "header"]
+  "order": [
+    "announcement",
+    "header",
+    "featured_collection_6qwg4t"
+  ]
 }
