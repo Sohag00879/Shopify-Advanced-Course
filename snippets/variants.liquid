@@ -1,4 +1,4 @@
-{% comment %} <div class="product_variants">
+ <div class="product_variants">
     <div class="product-options">
         {% for option in product.options_with_values %}
             <label>{{option.name}}</label> <br>
@@ -13,13 +13,4 @@
             <option value={{variant.id}}>{{variant.title}}</option>
         {% endfor %}
     </select>
-</div> {% endcomment %}
-
-
-<div class="product_variants">
-  <select name="variant">
-    {% for variant in product.variants %}
-      <option value="{{variant.id}}">{{variant.title}}</option>
-    {% endfor %}
-  </select>
-</div>
+</div> 
