@@ -17,17 +17,9 @@
 
 
 <div class="product_variants">
-  {% if product.variants.size > 1 %} <!-- Only show if multiple variants exist -->
-    <div class="product-options">
-      <select name="id" id="variants">
-        {% for variant in product.variants %}
-          <option 
-            value="{{ variant.id }}"
-          >
-            {{ variant.title }} - {{ variant.price | money }}
-          </option>
-        {% endfor %}
-      </select>
-    </div>
-  {% endif %}
+  <select name="variant">
+    {% for variant in product.variants %}
+      <option value="{{variant.id}}">{{variant.title}}</option>
+    {% endfor %}
+  </select>
 </div>
